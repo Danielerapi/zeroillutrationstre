@@ -1,0 +1,222 @@
+
+body {
+    background-color:white;
+    margin: 0;
+    
+}
+a {text-decoration: none; }
+img {
+    max-width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'News Cycle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;    
+}
+nav a:hover {
+    color: black;
+}
+
+header {
+    background-color:#001aff;
+    padding:15px 37px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    color: white;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 85.02%;
+    text-align: center;
+    margin: 0;
+}
+
+div {max-width: 100%;
+    margin: auto;
+}
+
+div.card0 {
+        display: grid; 
+        grid-template-columns: repeat(7, 1fr); 
+        grid-column-gap: 0px;
+        grid-row-gap: 0px; 
+        }
+
+        .titolopkarlotta{
+    grid-area: 1 / 2 / 2 / 4;
+    }
+
+.titolopkarlotta h1 {
+    font-family: 'News Cycle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    color: #001aff;;
+
+}
+
+div.cardtutte {
+    padding: 0px;
+    margin: 0px;
+        display: grid; 
+        grid-template-columns: repeat(7, 1fr); 
+        grid-column-gap: 0px;
+        grid-row-gap: 0px; 
+        }
+       { 
+            display: grid; 
+            grid-template-columns: repeat(7, 1fr); 
+            grid-template-rows: repeat(3, 1fr); 
+            grid-column-gap: 0px;
+            grid-row-gap: 0px; 
+            }
+        .card1 {
+            margin: 5px 5px 5px 40px;
+            grid-area: 1 / 1 / 2 / 5;
+        }
+        .card2 {
+            margin: 5px 40px 5px 5px;
+            grid-area: 1 / 5 / 2 / 7;
+        }
+        .card3 {
+            padding: 0px;
+            margin: 5px;
+            grid-area: 2 / 2 / 3 / 4;
+        }
+        .card4 {
+            padding: 5px 40px 5px 5px;
+            margin: 0px;
+            grid-area: 2 / 4 / 3 / 8; 
+        }
+        .card5 {
+            padding: 0px;
+            margin: 5px 5px 5px 40px;
+            grid-area: 3 / 1 / 4 / 5;
+        }
+        .card6{
+            margin: 5px 5px 5px 40px;
+            margin: 0px;
+            grid-area: 3 / 5 / 4 / 7;
+        }
+
+        div.testo {
+                display: grid; 
+                grid-template-columns: repeat(7, 1fr); 
+                grid-column-gap: 0px;
+                grid-row-gap: 0px; 
+                }
+                .div1 { grid-area: 1 / 4 / 2 / 7; } 
+        div.testo p {
+            grid-area: 1 / 4 / 2 / 7;
+        }
+        div.testo p {
+            font-family: 'Inter';
+             font-style: normal;
+             font-weight: 400;
+            font-size: 26px;
+           line-height: 130%;
+          color: #424242;;
+          margin: 30px 0px 100px 0px;
+
+        }
+
+
+        footer{
+            margin: 0;
+            padding: 0;
+            background-color: #001AFF;
+            height: 300px;
+        }
+        
+        footer {
+                display: grid; 
+                grid-template-columns: repeat(7, 1fr); 
+                grid-column-gap: 20px;
+                grid-row-gap: 0px; 
+                }
+        
+     ul {
+    list-style-type: none;
+    }
+                    
+         .titolofooter a {
+            color: white;
+        }
+        .titolofooter { 
+            
+            margin: 0;
+            padding: 0;
+            grid-area: 1 / 2 / 2 / 4; 
+            font-family: 'Comfortaa';
+            color: white;
+             font-style: normal;
+             font-weight: 600;
+            font-size: 14pt;    } 
+    
+    
+        .social {
+            margin: 30px;
+            padding: 0;
+            grid-area: 1 / 4 / 2 / 5; }
+    
+        .social h5{
+            margin: 0;
+            padding: 0;
+            color: white;
+            font-size: 20pt;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+        }
+        .contatti h5{
+            margin: 30px;
+            padding: 0;
+            color: white;
+            font-size: 20pt;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+        }
+    
+        .social a {
+            margin: 20px 20px;
+            padding: 0;
+            color: white;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+        }
+    
+        .contatti{
+            margin: 20px 20px;
+            padding: 0;
+            grid-area: 1 / 5 / 2 / 7;
+            margin: 0;
+            padding: ;
+            color: white;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+        }
+        .social .contatti {
+            display: flex;
+        }
+        
